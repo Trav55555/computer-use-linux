@@ -1,0 +1,24 @@
+{
+  "name": "computer-use-linux",
+  "version": "0.1.0+codex.20260915171058",
+  "description": "Experimental Linux desktop control through the user-approved desktop portal.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Computer Use Linux",
+    "shortDescription": "See and operate Linux desktop apps.",
+    "longDescription": "An independent Linux computer-use implementation using the XDG desktop portal, PipeWire screenshots, and foreground keyboard and pointer input. Requires desktop sharing approval.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Linux computer use to test a desktop app."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

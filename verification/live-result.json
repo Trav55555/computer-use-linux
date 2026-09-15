@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": ["capture", "click", "type", "CTRL+a", "scroll", "drag"],
+  "application_state": {
+    "clicks": 2,
+    "scrolls": 3,
+    "drags": 20,
+    "text": "Linux computer use: verified!"
+  }
+}

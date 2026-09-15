@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "computer-use-linux": {
+      "command": "sh",
+      "args": ["./scripts/run.sh"],
+      "cwd": ".",
+      "env_vars": ["DISPLAY", "WAYLAND_DISPLAY", "XDG_RUNTIME_DIR", "DBUS_SESSION_BUS_ADDRESS", "XDG_SESSION_TYPE", "XDG_CURRENT_DESKTOP"],
+      "startup_timeout_sec": 30,
+      "tool_timeout_sec": 180
+    }
+  }
+}
